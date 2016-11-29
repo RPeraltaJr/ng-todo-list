@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- define ng-app directive -->
+<html>
+<head>
+    <title>My TODOs | AngularJS</title>
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+</head>
+
+<body ng-app="todoListApp">
+
+    <h1>My TODOs</h1>
+
+    <!-- Todos directive -->
+    <todos></todos>
+
+    <!-- Scripts -->
+    <!-- Use an uncompressed angular version for more readable errors on console -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/controller.js"></script>
+    <script src="scripts/services/service.js"></script>
+    <script src="scripts/directives/todos.js"></script>
+</body>
+</html>
